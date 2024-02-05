@@ -1,0 +1,13 @@
+{
+  "_id": { "type": "string" },
+  "name": { "type": "string" },
+  "items": [
+    {
+      "item": { "type": "string" }
+    }
+  ],
+  "state": {
+    "type": "string",
+    "enum": ["A voir", "En cours", "Terminé", "Abandonné"]
+  }
+}

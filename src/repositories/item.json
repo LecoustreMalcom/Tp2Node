@@ -1,0 +1,12 @@
+{
+  "title": "item",
+  "description": "Un item de la base de données",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "status": { "type": "string" }
+  },
+  "required": ["id", "name"],
+  "additionalProperties": false
+}
